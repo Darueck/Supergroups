@@ -38,7 +38,9 @@ The preparation of the homologous database is done using 2 different approaches 
 
 - [Download the complete genomes.](ftp.ncbi.nlm.nih.gov/genomes/refseq/)
 - [Download and execute OrthoMCL.](http://orthomcl.org/common/downloads/software/)
+    Execute OrthoMCL with 1E-05 as E-value cutoff
 - [Download and execute OMA.](http://omabrowser.org/standalone/)
+    Execute OMA with default parameters
 
 The output of the 2 software is the homolog database itself.
 
