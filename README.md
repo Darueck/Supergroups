@@ -1,7 +1,7 @@
 # Supergroups
 <p align="center">
   
-  <h3 align="center">Scripts for Supergroups's inference</h3>
+  <h3 align="center">Scripts for Homologous Supergroups's inference</h3>
 
   <p align="center">
     New approach for the identification of homologous genes, based on the reconciliation of the results of two different methodologies
@@ -24,8 +24,8 @@
 ## Table of contents
 
 - [Preparation of the homolog database](#Preparation-of-the-homolog-database)
-- [Detection of Conserved Domains with RpsBLAST](#Detection-of-Conserved-Domains-with-RpsBLAST)
-- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Detection of Conserved Domains (CDD) with RpsBLAST](#Detection-of-Conserved-Domains-(CDD)-with-RpsBLAST)
+- [Identification of Protein Families (Pfam-A) with CLADE ](#Identification-of-Protein-Families-(Pfam-A)-with-CLADE)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -47,17 +47,16 @@ The preparation of the homologous database is done using 2 different approaches 
 The output of the 2 software is the homolog database itself.
 
 
-## Detection of Conserved Domains with RPS-BLAST 
+## Detection of Conserved Domains (CDD) with RPS-BLAST 
 
 - [Download RPS-BLAST.](https://www.ncbi.nlm.nih.gov/) 
 - [Download last version of CDD](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml). 
     <br> Execute RPS-BLAST with 1E-05 as E-value cutoff
     
-    ## Identification of Protein Families with CLADE (Pfam-A)
+## Identification of Protein Families (Pfam-A) with CLADE 
 
 - [Download CLADE](http://www.lcqb.upmc.fr/CLADE). 
-
-    <br> Execute CLADE with 1E-05 as E-value cutoff
+  <br> Execute CLADE with 1E-05 as E-value cutoff
     
 
 ```
