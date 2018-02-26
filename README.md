@@ -50,36 +50,36 @@ The output of the 2 software is the homolog database itself.
 ## Detection of Conserved Domains with RPS-BLAST 
 
 - [Download RPS-BLAST.](https://www.ncbi.nlm.nih.gov/) 
-- [Download last version of CDD.](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml). 
+- [Download last version of CDD](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml). 
     <br> Execute RPS-BLAST with 1E-05 as E-value cutoff
     
     ## Identification of Protein Families with CLADE (Pfam-A)
 
-- [Download CLADE.](http://www.lcqb.upmc.fr/CLADE). 
+- [Download CLADE](http://www.lcqb.upmc.fr/CLADE). 
 
     <br> Execute CLADE with 1E-05 as E-value cutoff
     
 
 ```
-bootstrap/
-├── css/
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   ├── bootstrap.min.css.map
-│   ├── bootstrap-grid.css
-│   ├── bootstrap-grid.css.map
-│   ├── bootstrap-grid.min.css
-│   ├── bootstrap-grid.min.css.map
-│   ├── bootstrap-reboot.css
-│   ├── bootstrap-reboot.css.map
-│   ├── bootstrap-reboot.min.css
-│   └── bootstrap-reboot.min.css.map
-└── js/
-    ├── bootstrap.bundle.js
-    ├── bootstrap.bundle.min.js
-    ├── bootstrap.js
-    └── bootstrap.min.js
+Example for CDD:
+XP_009310444.1	99707
+XP_004261170.1	99716
+XP_004185777.1	99738
+XP_004258620.1	99738
+XP_004259653.1	99738
+XP_002140281.1	99747
+XP_009307740.1	99751
+
+Example for Pfam:
+
+XP_009310819.1	PF00004
+XP_002141599.1	PF00004
+XP_009313373.1	PF00004
+XP_004255528.1	PF00004
+XP_009306220.1	PF00004
+XP_002139818.1	PF00004
+XP_002140754.1	PF00004
+
 ```
 
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/), but not [jQuery](https://jquery.com/).
