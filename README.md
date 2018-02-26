@@ -24,7 +24,7 @@
 ## Table of contents
 
 - [Preparation of the homolog database](#Preparation-of-the-homolog-database)
-- [What's included](#whats-included)
+- [Detection of Conserved Domains with RpsBLAST](#Detection-of-Conserved-Domains-with-RpsBLAST)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
@@ -47,9 +47,18 @@ The preparation of the homologous database is done using 2 different approaches 
 The output of the 2 software is the homolog database itself.
 
 
-## What's included
+## Detection of Conserved Domains with RPS-BLAST 
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+- [Download RPS-BLAST.](https://www.ncbi.nlm.nih.gov/) 
+- [Download last version of CDD.](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml). 
+    <br> Execute RPS-BLAST with 1E-05 as E-value cutoff
+    
+    ## Identification of Protein Families with CLADE (Pfam-A)
+
+- [Download CLADE.](http://www.lcqb.upmc.fr/CLADE). 
+
+    <br> Execute CLADE with 1E-05 as E-value cutoff
+    
 
 ```
 bootstrap/
