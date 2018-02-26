@@ -11,8 +11,8 @@
     (The scripts use as input the format of the OrthoMCL and OMA results, but can be adapted to any other tool)
     <br>
     <br>
-    
-  </p>
+    <img src="https://github.com/HomologousSupergroups/Supergroups/blob/master/Figura%201.new.jpg">
+  </p>
 </p>
 
 <br>
