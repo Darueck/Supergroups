@@ -12,6 +12,8 @@
     <br>
     <br>
     <img src="https://github.com/HomologousSupergroups/Supergroups/blob/master/Figura%201.new.jpg">
+    <br>
+  Flowchart of the study: Description of the steps and materials used in this study for the inference of homologous Supergroups. 
   </p>
 </p>
 
