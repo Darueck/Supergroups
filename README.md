@@ -21,7 +21,7 @@
 
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [Preparation of the homolog database](#Preparation-of-the-homolog-database)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Documentation](#documentation)
@@ -31,18 +31,16 @@
 - [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
 
-## Quick start
+## Preparation of the homolog database
 
-Several quick start options are available:
 
-- [Download the latest release.](https://github.com/twbs/bootstrap/archive/v4.0.0.zip)
-- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
-- Install with [npm](https://www.npmjs.com/): `npm install bootstrap`
-- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@4.0.0`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:4.0.0`
-- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package bootstrap.sass`
+The preparation of the homologous database is done using 2 different approaches for detection of homology in complete genomes: OMA and OrthoMCL
 
-Read the [Getting started page](https://getbootstrap.com/docs/4.0/getting-started/introduction/) for information on the framework contents, templates and examples, and more.
+- [Download the complete genomes.](ftp.ncbi.nlm.nih.gov/genomes/refseq/)
+- [Download and execute OrthoMCL.](http://orthomcl.org/common/downloads/software/)
+- [Download and execute OMA.](http://omabrowser.org/standalone/)
+
+The output of the 2 software is the homolog database itself.
 
 
 ## What's included
